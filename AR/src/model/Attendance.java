@@ -5,10 +5,18 @@ import java.util.List;
 
 public class Attendance {
 
+	private int id;
 	private Date attendaceDate;
 	private String subject;
 	private List<String> listOfAttendance;
 	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public Date getAttendaceDate() {
 		return attendaceDate;
 	}
